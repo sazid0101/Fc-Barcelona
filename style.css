@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head_container{
+    color: white;
+    background-color: rgb(52, 45, 45);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    
+}
+.logo_part{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    
+}
+.text_logo{
+   font-size: 30px ;
+   padding-top: 7px;
+   color: greenyellow;
+
+}
+.menus{
+    display: flex;
+}
+.menu{
+    list-style: none;
+    margin-right: 20px;
+    color: greenyellow;
+    cursor: pointer;
+  
+}
+.menu:hover{
+    color: rgb(220, 227, 220);
+}
+.banner{
+    width: 400px;
+}
+.Banner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image/barcelona3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    color: white;
+}
+.title{
+    font-size: 50px;
+}
+.description{
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.btn{
+    background-color: #212ea7;
+    color: white;
+    border: none;
+    font-size: 17px;
+    width: 14%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: rgb(163, 163, 228);
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: row-reverse;
+}
+.about-head{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.about-img{
+    width: 200px;
+    padding-bottom: 20px;
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 30px rgb(60, 59, 59);
+    text-align: center;
+    background-color: rgb(9, 9, 9);
+    border-radius: 10px;
+}
+.box-text{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+
+}
+.paragraph{
+    font-size: 17px;
+    color: white;
+}
+.box-button{
+    margin-top: 10px;
+    background-color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.service-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.xyz{
+    background-color: rgb(11, 11, 11);
+}
+.service{
+    color: white;
+}

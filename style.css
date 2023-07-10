@@ -120,11 +120,30 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
 }
 .xyz{
     background-color: rgb(11, 11, 11);
 }
 .service{
     color: white;
+}
+.foot{
+    background-color: #212ea7;
+    text-align: center;
+    height: 100px;
+    margin-top: 5px;
+}
+.footh1{
+    color: white;
+    font-size: 30px;
+}
+.footp{
+    color: white;
+    font-size: 20px;
+}
+.footp1{
+    color: white;
+    font-size: 20px;
 }

@@ -132,7 +132,7 @@
 .foot{
     background-color: #212ea7;
     text-align: center;
-    height: 100px;
+    height: 110px;
     margin-top: 5px;
 }
 .footh1{
@@ -146,4 +146,8 @@
 .footp1{
     color: white;
     font-size: 20px;
+}
+.small{
+    color: aliceblue;
+    padding-bottom: 5px;
 }
